@@ -1,0 +1,8 @@
+services:
+  api:
+    environment:
+      NODE_ENV: development
+      APP_ORIGIN: http://localhost:8080
+  web:
+    ports:
+      - "8080:80"
